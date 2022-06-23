@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p { 
+    font-family: 'Hind Guntur', sans-serif;
+    padding-top: 100px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* This is the start of my navigation */
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li:hover {
+    color: #888888;
+}
+
+nav ul li:active {
+    color: #000000;
+}
+
+.logo {
+    float: left;
+    
+}
+
+nav ul li{
+display: inline-block;
+color: #000000;
+text-transform: uppercase;
+font-size: 20px;
+margin: 10px 10px;
+}
+
+/* This is the end of my navigation */
+/* This is the start of my hero section*/
+
+carousel { 
+    width: 100%;
+    height: 500px;
+    background-color: #ffe4c4;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/Canva-Black-Tablet-Computer-Beside-Teal-Notebook.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top:-50;
+
+}
+
+.carousel-text {
+color: #000000;
+top: 45%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+text-align: center;
+font-weight: bolder;
+font-size: 35pt;
+border: 20px solid #ffffff;
+padding: 8px;
+background-color: #ffffff;
+}
+
+.infobox {
+    background-color: #cfcfcf;
+    padding-top: -20px;
+    padding-bottom: 1px;
+}
+
+.hero-paragraph {
+    color: #000000;
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    left: 2px;
+}
+
+/* This is the end of my hero section*/
+
+/* This is the start of my info box section */
+
+.infobox {
+    text-align: center;
+    position: relative;
+}
+
+.column {
+    text-align: center;
+    width: 33.33%;
+    height: 300px;
+    padding: 10px;
+    background-color: #cfcfcf;
+    border: 0.01px solid #000000;
+  }
+
+  /* .columntext1 {
+    margin-bottom: 70px;  */
+  /* } */
+
+  /* .columntext2 {
+    /* margin-bottom: 40px;  */
+  /* } */ */
+
+  /* .columntext3 {
+    /* margin-bottom: 40px;  */
+  /* } */ */
+
+.weblink{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+/* This is the end of my info box section */
+
+/* This is the start of my footer */
+
+.footer {
+    float: both;
+}
+
+.fa-facebook-f {
+    float: left;
+    color: #cfcfcf;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.fa-instagram {
+    float: left;
+    color: #cfcfcf;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.fa-linkedin-in {
+    float: left;
+    color: #cfcfcf;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.fa-twitter {
+    float: left;
+    color: #cfcfcf;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.credits {
+    float: right;
+    padding-right: 7px;
+    margin-top: 7px;
+}
+
